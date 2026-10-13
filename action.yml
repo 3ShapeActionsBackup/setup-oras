@@ -13,6 +13,7 @@
 # limitations under the License.
 
 name: setup-oras
+author: step-security
 description: Setup ORAS CLI on GitHub Actions runners
 branding:
   icon: box
