@@ -1,5 +1,6 @@
 {
-  "name": "setup-oras",
+  "name": "@step-security/setup-oras",
+  "private": true,
   "version": "2.0.1",
   "description": "Set up your GitHub Actions workflow with a specific version of ORAS",
   "scripts": {
@@ -11,6 +12,7 @@
   },
   "keywords": [],
   "author": "step-security",
+  "publisher": "step-security",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/step-security/setup-oras/issues"
@@ -19,11 +21,15 @@
   "dependencies": {
     "@actions/core": "^3.0.1",
     "@actions/tool-cache": "^4.0.0",
-    "axios": "^1.19.0"
+    "axios": "^1.20.0"
   },
   "devDependencies": {
-    "@types/node": "^26.1.2",
-    "esbuild": "^0.28.1",
+    "@types/node": "^26.6.2",
+    "esbuild": "^0.28.2",
     "typescript": "^7.0.2"
+  },
+  "engines": {
+    "node": ">=24",
+    "npm": ">=11"
   }
 }
